@@ -1,4 +1,4 @@
-version = "3.5"
+version = "3.5.1"
 scriptURL = "https://raw.githubusercontent.com/alfanoandrea/password-compiler/main/PasswordCompiler.py"
 debug = False
 
@@ -64,12 +64,11 @@ class graphics:
     def selezione():
         while True:
             graphics.intro(dynamic = False)
-            print(f"  {Color.gray}({Color.green}X{Color.gray}){Color.red} Exit{Color.reset}")
             print(f"  {Color.gray}({Color.green}1{Color.gray}){Color.cyan} Generate{Color.reset}")
-            print(f"  {Color.gray}({Color.green}2{Color.gray}){Color.cyan} About{Color.reset}")
-            print(f"  {Color.gray}({Color.green}3{Color.gray}){Color.cyan} Update{Color.reset}")
+            print(f"  {Color.gray}({Color.green}2{Color.gray}){Color.cyan} Update{Color.reset}")
+            print(f"  {Color.gray}({Color.green}X{Color.gray}){Color.red} Exit{Color.reset}")
             sel = input(f"\n{Color.violet}   >> {Color.reset}").lower()
-            if sel in ['1', '2', '3', 'x']:
+            if sel in ['1', '2', 'x']:
                 return sel
 
 

@@ -1,7 +1,6 @@
-# Password Compiler
 
 <div align="center">
-
+# Password Compiler
 
 **An Advanced Python CLI Tool for high-fidelity Wordlist Generation**
 
@@ -10,6 +9,8 @@
 [![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)](https://github.com/alfanoandrea/Password-Compiler)
 
 </div>
+
+---
 
 - **Author:** `alfanowski`
 - **Language:** `Python`
@@ -109,6 +110,7 @@ python PasswordCompiler.py
 
 Thank you for using Password Compiler — use responsibly.
 
+---
 
 <div align="center">
 

@@ -38,7 +38,7 @@ pip install -r requirements.txt
 3. **Run the program:**
 
     ```bash
-    python3 compiler.py
+    python3 PasswordCompiler.py
     ```
 
    Follow the on-screen instructions to generate passwords based on your name, surname, and date of birth.

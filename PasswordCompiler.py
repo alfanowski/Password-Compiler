@@ -1,4 +1,4 @@
-version = "3.5.2"
+version = "3.6"
 scriptURL = "https://raw.githubusercontent.com/alfanoandrea/password-compiler/main/PasswordCompiler.py"
 debug = False
 
@@ -153,8 +153,8 @@ def dictionary():
             graphics.intro(dynamic = False)
             print(f"{Color.cyan} Enter the file size:")
             print(f"{Color.gray}  ({Color.yellow}1{Color.gray}){Color.green} Small {Color.gray}{Color.italic} more than 15 thousand passwords{Color.reset}")
-            print(f"{Color.gray}  ({Color.yellow}2{Color.gray}){Color.fucsia} Big {Color.gray}{Color.italic} more than 500 thousand passwords{Color.reset}")
-            print(f"{Color.gray}  ({Color.yellow}3{Color.gray}){Color.red} Huge {Color.gray}{Color.italic} more than 19 million passwords\n{Color.reset}")
+            print(f"{Color.gray}  ({Color.yellow}2{Color.gray}){Color.fucsia} Big {Color.gray}{Color.italic} more than 600 thousand passwords{Color.reset}")
+            print(f"{Color.gray}  ({Color.yellow}3{Color.gray}){Color.red} Huge {Color.gray}{Color.italic} more than 25 million passwords\n{Color.reset}")
             sel = input(f"{Color.violet}   >> {Color.reset}")
             if sel.isnumeric() and 1 <= int(sel) <= 3: 
                 return int(sel) + 3
@@ -173,7 +173,7 @@ def dictionary():
                 for length in range(1, dimensione):
                     for combo in itertools.permutations(combinazioni, length):
                         password = ''.join(combo)
-                        if len(password) >= 6 and any(name in password.lower() for name in combinazioni[:6]):
+                        if len(password) >= 6:
                             f.write(password + "\n")
                             cont += 1
                             pbar.update(1)

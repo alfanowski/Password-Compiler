@@ -2,6 +2,7 @@
 
 <div align="center">
 
+
 **An Advanced Python CLI Tool for high-fidelity Wordlist Generation**
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)

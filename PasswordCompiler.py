@@ -2,6 +2,7 @@ version = "3.5.1"
 scriptURL = "https://raw.githubusercontent.com/alfanoandrea/password-compiler/main/PasswordCompiler.py"
 debug = False
 
+
 class Color:
     violet = "\033[35;1m"
     red = "\u001b[31;1m"

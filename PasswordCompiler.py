@@ -1,4 +1,4 @@
-version = "3.5.1"
+version = "3.5.2"
 scriptURL = "https://raw.githubusercontent.com/alfanoandrea/password-compiler/main/PasswordCompiler.py"
 debug = False
 
@@ -212,7 +212,7 @@ def dictionary():
     combinazioni = [
         nome, cognome, 
         nome.capitalize(), cognome.capitalize(),
-        nome.upper(), nome.upper(), 
+        nome.upper(), cognome.upper(), 
         giorno, mese, anno, anno[-2:], 
         '.', ',', '?', '@', '#', '_', '-', '!', '$', '%', '[', ']', '(', ')'
         '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',

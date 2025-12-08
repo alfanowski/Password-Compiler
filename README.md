@@ -11,13 +11,11 @@ The "Password Compiler" program is a Python application that generates possible 
 The program prompts the user to input their name, surname, and date of birth. It utilizes this information to create a password by intelligently combining different components, and then adds numbers and special characters to enhance the password's security.
 
 ## Dependencies Installation
-Before running the program, make sure you have installed the `tqdm` library. You can easily install it via pip by executing the following command:
+Before running the program, make sure you have installed the libreries. You can easily install it via pip by executing the following command:
 
 ```bash
-pip install tqdm
+pip install -r requirements.txt
 ```
-
-**Note**: Even if the `tqdm` library is not installed, the program will attempt to install it automatically on first launch; automatic installation will be performed to ensure the proper functioning of the program.
 
 ## Installation on Linux
 
@@ -40,7 +38,7 @@ pip install tqdm
 3. **Run the program:**
 
     ```bash
-    python3 compiler.py
+    python3 PasswordCompiler.py
     ```
 
    Follow the on-screen instructions to generate passwords based on your name, surname, and date of birth.

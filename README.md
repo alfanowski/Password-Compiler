@@ -6,7 +6,7 @@
 **An Advanced Python CLI Tool for high-fidelity Wordlist Generation**
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)](https://github.com/alfanoandrea/Password-Compiler)
 
 </div>

@@ -1,6 +1,7 @@
+# Password Compiler
+
 
 <div align="center">
-# Password Compiler
 
 **An Advanced Python CLI Tool for high-fidelity Wordlist Generation**
 

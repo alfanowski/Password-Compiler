@@ -1,4 +1,4 @@
-**Password Compiler**
+# Password Compiler
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 </div>
 
 - **Author:** `alfanowski`
-- **Language:** Python
+- **Language:** `Python`
 - **License:** See `LICENSE`
 
 **Project Overview**

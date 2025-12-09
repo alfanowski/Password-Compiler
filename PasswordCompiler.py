@@ -1,4 +1,4 @@
-version = "3.6"
+version = "3.6.1"
 scriptURL = "https://raw.githubusercontent.com/alfanoandrea/Password-Compiler/main/PasswordCompiler.py"
 debug = False
 
